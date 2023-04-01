@@ -48,21 +48,21 @@ Logo, antes de construir um sistema de recomendação, você precisa coletar e a
 ## Roteiro da Resolução:
 Esse é o roteiro de resolução do desafio que eu sugiro:
 
-* Faça o web scraper para coletar os dados das páginas HTML, necessariamente, utilizando a linguagem Python.
-* Armazene os dados brutos em um arquivo csv.
-* Normalize os dados brutos de acordo com Modelo Entidade-Relacionamento e Star Schema.
-* Armazene os dados tratados em um banco de dados Postgres, utilizando um script em bash.
-* Agende seu script para rodar todos os dias em um horário específico, utilizando o Apache Airflow.
-* Crie uma vizualização dos dados em um dashboard.
+- [ ] Faça o web scraper para coletar os dados das páginas HTML, necessariamente, utilizando a linguagem Python.
+- [ ] Armazene os dados brutos em um arquivo csv.
+- [ ] Normalize os dados brutos de acordo com Modelo Entidade-Relacionamento e Star Schema.
+- [ ] Armazene os dados tratados em um banco de dados Postgres, utilizando um script em bash.
+- [ ] Agende seu script para rodar todos os dias em um horário específico, utilizando o Apache Airflow.
+- [ ] Crie uma vizualização dos dados em um dashboard.
 
 
 ### Tornar sua solução Profissionalmente Respeitada: 
 
-* Garanta que seu script saiba lidar com possíveis erros e não pare de funcionar por qualquer problema. 
-* Crie sua solução modularizada
-* Sincronize os script de coleta e inserção.
-* Faça o gerenciamento desses jobs utilizando o Airflow
-* Crie workers que trabalham em paralelo, cada um coleta e armazena os dados dos livros de uma página.
+- [ ] Garanta que seu script saiba lidar com possíveis erros e não pare de funcionar por qualquer problema. 
+- [ ] Crie sua solução modularizada
+- [ ] Sincronize os script de coleta e inserção.
+- [ ] Faça o gerenciamento desses jobs utilizando o Airflow
+- [ ] Crie workers que trabalham em paralelo, cada um coleta e armazena os dados dos livros de uma página.
 
 ## Observações 
 
@@ -70,5 +70,5 @@ Os dados para serem coletados e armazenados, estão disponíveis neste site. htt
 
 Esse site foi desenvolvido e disponibilizado especialmente para praticar web scraping. Não existe nenhum tipo de problema legal ao fazer a coleta de dados.
 
-Referência: https://medium.com/@meigarom/o-projeto-de-data-engineering-para-o-seu-portf%C3%B3lio-c186c7191823
+Referência de estudo: https://medium.com/@meigarom/o-projeto-de-data-engineering-para-o-seu-portf%C3%B3lio-c186c7191823
 
